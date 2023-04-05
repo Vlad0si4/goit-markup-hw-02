@@ -1,0 +1,140 @@
+
+:root {
+    --SLATE: #43554a;
+    --NAVY-BLUE : #2E2F42;
+    --WHITE : #FFFFFF;
+    --hover-color : #404BBF;
+    --IRIS:  #4D5AE5;
+    --CLOUD: #F4F4FD;
+    --hover-color-button : #404BBF;
+
+
+}
+/* main color */
+body {
+    color: var(--SLATE);
+    background: var(--WHITE);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02em;
+}
+ul {
+    list-style: none;
+}
+/* logo color */
+.logo {
+    color: var(--NAVY-BLUE);
+    font-family: Raleway, cursive;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 16;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.logo:hover {
+    color: var(--hover-color);
+}
+/* site nav */
+.site-nav .link {
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;  
+    text-decoration: none;
+
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-color);
+}
+.site-nav .link.current {
+    color: var(--hover-color)
+}
+/* address nav*/
+.address-nav .link {
+    color: var(--SLATE);
+    font-size: 16px;
+    line-height: 1.5px;
+    text-decoration: none;
+}
+.address-nav .link:hover {
+    color: var(--hover-color);
+}
+/* section */
+.section-title {
+ color: var(--NAVY-BLUE);
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    }
+.section-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* hero title */
+.hero {
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+
+}
+
+.button.primary {
+    color: var(--WHITE);
+    background-color: var(--IRIS);
+    font-family: inherit;
+
+       font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+/* button */
+.button.secondary{
+    color: var(--IRIS);
+    background-color: var(--CLOUD);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    font-family: inherit;
+}
+   
+/* color hover button */
+.hero .button.primary:hover,
+.hero .button.primary:focus {
+    background-color: var(--hover-color-button)
+}
+.filters .button.secondary:hover,
+.filters .button.secondary:focus {
+    background-color: var(--hover-color-button);
+    color: var(--WHITE);
+}
+/* footer */
+
+.footer {
+    background-color: var(--NAVY-BLUE);
+}
+.footer .logo {
+    color: var(--WHITE);
+    text-decoration: none;
+ }
+.logo:hover {
+    color: var(--hover-color);
+}
+.footer .text {
+    color: var(--CLOUD);
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
