@@ -16,13 +16,14 @@ body {
     background: var(--WHITE);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
+    
 }
 ul {
     list-style: none;
 }
 /* logo color */
 .logo {
-    color: var(--NAVY-BLUE);
+    color: var(--IRIS);
     font-family: Raleway, cursive;
     letter-spacing: 0.03em;
     font-weight: 800;
@@ -31,7 +32,11 @@ ul {
     text-transform: uppercase;
     text-decoration: none;
 }
-.logo:hover {
+.logo span {
+    color: var(--NAVY-BLUE)
+} 
+.logo:hover,
+.logo span:hover {
     color: var(--hover-color);
 }
 /* site nav */
@@ -124,11 +129,15 @@ ul {
 .footer {
     background-color: var(--NAVY-BLUE);
 }
-.footer .logo {
-    color: var(--WHITE);
+.footer .logo.color {
+    color: var(--IRIS);
     text-decoration: none;
- }
-.logo:hover {
+}
+.logo.color span {
+color: var(--WHITE)
+}
+.logo.color:hover,
+.logo.color span:hover {
     color: var(--hover-color);
 }
 .footer .text {
