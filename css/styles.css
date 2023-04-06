@@ -20,6 +20,7 @@
 }
 .list {
     list-style: none;
+    font-style: normal
 }
 /* logo color */
 .logo {
@@ -95,7 +96,7 @@ span.logo-color-header {
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
