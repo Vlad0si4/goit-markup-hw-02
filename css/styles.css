@@ -113,16 +113,17 @@
     text-align: center;
 
 }
-
+/* button */
 .button.primary {
     color: var(--WHITE);
     background-color: var(--IRIS);
     font-family: inherit;
 
-       font-weight: 500;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 /* button */
 .button.secondary{
@@ -133,21 +134,21 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-
     font-family: inherit;
+    cursor: pointer;
 }
    
 /* color hover button */
 .hero .button.primary:hover,
 .hero .button.primary:focus {
     background-color: var(--hover-color-button);
-    cursor: pointer;
+   
 }
 .list .button.secondary:hover,
 .list .button.secondary:focus {
     background-color: var(--hover-color-button);
     color: var(--WHITE);
-    cursor: pointer;
+   
 }
 /* footer */
 
