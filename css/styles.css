@@ -11,7 +11,7 @@
 
 }
 /* main color */
-body {
+.body {
     color: var(--SLATE);
     background: var(--WHITE);
     font-family: "Roboto", sans-serif;
@@ -24,12 +24,17 @@ body {
 /* logo color */
 .logo {
     color: var(--IRIS);
-    font-family: "Raleway", sans-serif, cursive;
-    letter-spacing: 0.03em;
+
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+    }
+.link {
     text-decoration: none;
 }
 .logo span {
@@ -59,26 +64,44 @@ body {
 .address-nav .link {
     color: var(--SLATE);
     font-size: 16px;
-    line-height: 1.5px;
+    line-height: 1.5;
     text-decoration: none;
+    font-style: normal
 }
-.address-nav .link:hover {
+.address-nav .link:hover,
+.link:focus {
     color: var(--hover-color);
 }
 /* section */
 .section-title {
- color: var(--NAVY-BLUE);
+    color: var(--NAVY-BLUE);
 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     }
 .section-text{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+.main.section-title{
+    color: var(--NAVY-BLUE);
 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.color{
+    background-color: var(--WHITE);
+}
+.section.person {
+    background: var(--CLOUD)}
 /* hero title */
 .hero {
     background-color: var(--NAVY-BLUE);
@@ -117,12 +140,14 @@ body {
 /* color hover button */
 .hero .button.primary:hover,
 .hero .button.primary:focus {
-    background-color: var(--hover-color-button)
+    background-color: var(--hover-color-button);
+    cursor: pointer;
 }
-.filters .button.secondary:hover,
-.filters .button.secondary:focus {
+.list .button.secondary:hover,
+.list .button.secondary:focus {
     background-color: var(--hover-color-button);
     color: var(--WHITE);
+    cursor: pointer;
 }
 /* footer */
 
@@ -132,15 +157,16 @@ body {
 .footer .logo.color {
     color: var(--IRIS);
     text-decoration: none;
+    background-color: var(--NAVY-BLUE);
 }
-.logo.color span {
+.logo.color > span {
 color: var(--WHITE)
 }
 .logo.color:hover,
-.logo.color span:hover {
+.logo.color > span:hover {
     color: var(--hover-color);
 }
-.footer .text {
+.footer .section-text {
     color: var(--CLOUD);
    
     font-weight: 400;
