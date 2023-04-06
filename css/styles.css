@@ -23,7 +23,7 @@
 }
 /* logo color */
 .logo {
-    color: var(--NAVY-BLUE);
+    color: var(--IRIS);
 
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 .logo span {
-    color: var(--IRIS)
+    color: var(--NAVY-BLUE)
 } 
 .logo:hover,
 .logo span:hover {
@@ -106,11 +106,11 @@
 .hero {
     background-color: var(--NAVY-BLUE);
 }    
-.hero-title {
+.main .hero-title {
     color: var(--WHITE);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em
 }
@@ -157,12 +157,12 @@
     background-color: var(--NAVY-BLUE);
 }
 .footer .logo.color {
-    color: var(--WHITE);
+    color: var(--IRIS);
     text-decoration: none;
     background-color: var(--NAVY-BLUE);
 }
 .logo.color .span {
-color: var(--IRIS)
+color: var(--CLOUD)
 }
 .logo.color:hover,
 .logo.color > span:hover {
