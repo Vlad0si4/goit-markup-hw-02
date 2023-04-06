@@ -1,6 +1,6 @@
 
 :root {
-    --SLATE: #43554a;
+    --SLATE: #434455;
     --NAVY-BLUE : #2E2F42;
     --WHITE : #FFFFFF;
     --hover-color : #404BBF;
@@ -24,7 +24,7 @@ ul {
 /* logo color */
 .logo {
     color: var(--IRIS);
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif, cursive;
     letter-spacing: 0.03em;
     font-weight: 800;
     font-size: 18px;
