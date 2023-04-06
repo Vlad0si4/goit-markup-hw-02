@@ -23,7 +23,7 @@
 }
 /* logo color */
 .logo {
-    color: var(--IRIS);
+    color: var(--NAVY-BLUE);
 
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 .logo span {
-    color: var(--NAVY-BLUE)
+    color: var(--IRIS)
 } 
 .logo:hover,
 .logo span:hover {
@@ -51,15 +51,15 @@
     font-size: 16px;
     line-height: 1.5;  
     text-decoration: none;
-
+    font-style: normal
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--hover-color);
 }
-.site-nav .link.current {
+/* .site-nav .link.current {
     color: var(--hover-color)
-}
+} */
 /* address nav*/
 .address-nav .link {
     color: var(--SLATE);
@@ -78,7 +78,7 @@
 
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     }
 .section-text{
@@ -92,7 +92,7 @@
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -105,13 +105,14 @@
 /* hero title */
 .hero {
     background-color: var(--NAVY-BLUE);
+}    
+.hero-title {
     color: var(--WHITE);
-
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-
+    letter-spacing: 0.02em
 }
 /* button */
 .button.primary {
@@ -156,12 +157,12 @@
     background-color: var(--NAVY-BLUE);
 }
 .footer .logo.color {
-    color: var(--IRIS);
+    color: var(--WHITE);
     text-decoration: none;
     background-color: var(--NAVY-BLUE);
 }
-.logo.color > span {
-color: var(--WHITE)
+.logo.color .span {
+color: var(--IRIS)
 }
 .logo.color:hover,
 .logo.color > span:hover {
