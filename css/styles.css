@@ -40,8 +40,9 @@
 .logo span {
     color: var(--NAVY-BLUE)
 } 
-.logo:hover,
-.logo span:hover {
+.logo:hover,.logo:focus,
+.logo span:hover
+{
     color: var(--hover-color);
 }
 /* site nav */
@@ -87,7 +88,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.main.section-title{
+.main.section-title {
+
     color: var(--NAVY-BLUE);
 
     font-weight: 700;
@@ -102,18 +104,28 @@
 }
 .section.person {
     background: var(--CLOUD)}
+
+.main .hero-title {
+    color: var(--WHITE);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em
+    }    
 /* hero title */
 .hero {
     background-color: var(--NAVY-BLUE);
-}    
-.main .hero-title {
+}
+.hero-title {
     color: var(--WHITE);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em
-}
+}        
+
 /* button */
 .button.primary {
     color: var(--WHITE);
@@ -161,12 +173,12 @@
     text-decoration: none;
     background-color: var(--NAVY-BLUE);
 }
-.logo.color .span {
-color: var(--CLOUD)
+.footer .logo > span {
+    color: var(--CLOUD)
 }
-.logo.color:hover,
-.logo.color > span:hover {
-    color: var(--hover-color);
+.footer .logo:hover, .footer .logo:focus,
+.footer .logo span:hover { 
+color: var(--hover-color)
 }
 .footer .section-text {
     color: var(--CLOUD);
