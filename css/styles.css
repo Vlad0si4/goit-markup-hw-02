@@ -14,21 +14,21 @@
 body {
     color: var(--SLATE);
     background: var(--WHITE);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.02em;
     
 }
-ul {
+.list {
     list-style: none;
 }
 /* logo color */
 .logo {
     color: var(--IRIS);
-    font-family: Raleway, sans-serif, cursive;
+    font-family: "Raleway", sans-serif, cursive;
     letter-spacing: 0.03em;
     font-weight: 800;
     font-size: 18px;
-    line-height: 16;
+    line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
 }
