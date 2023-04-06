@@ -59,17 +59,17 @@ span.logo-color-header {
 .site-nav .link:focus {
     color: var(--hover-color);
 }
-/* .site-nav .link.current {
-    color: var(--hover-color)
-} */
+
+
 /* address nav*/
 .address-nav .link {
     color: var(--SLATE);
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
+    text-decoration: none; 
+}
+.address-nav {
     font-style: normal
-    
 }
 .address-nav .link:hover,
 .link:focus {
@@ -86,7 +86,7 @@ span.logo-color-header {
     }
 .section-text{
     color: var(--SLATE);
-    
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
